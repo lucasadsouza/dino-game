@@ -18,6 +18,13 @@ function handleKeyUp(event) {
 }
 
 
+function onClickScreen() {
+    if (!isJumping) {
+        jump();
+    }
+}
+
+
 function jump() {
     isJumping = true;
 
